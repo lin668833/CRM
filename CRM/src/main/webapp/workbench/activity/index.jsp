@@ -112,21 +112,22 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
 						if (i<$xz.length-1){
 							param += "&";
 						}
-						$.ajax({
-							url:"workbench/activity/delete.do",
-							data:param,
-							type:"post",
-							dataType:"json",
-							success:function (data) {
-								if (data.success){
+					}
+                    $.ajax({
+                        url:"workbench/activity/delete.do",
+                        data:param,
+                        type:"post",
+                        dataType:"json",
+                        success:function (data) {
+                            if (data.success){
 									pageList(1,2);
-								} else {
+                            } else {
 									alert("删除失败");
-								}
+                            }
 							}
 						})
 					}
-				}
+
 			}
 
 		});
