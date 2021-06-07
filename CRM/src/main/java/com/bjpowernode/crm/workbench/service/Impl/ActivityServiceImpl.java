@@ -90,4 +90,13 @@ public class ActivityServiceImpl implements ActivityService {
 
         return list;
     }
+
+    public boolean deleteRemark(String id) {
+        boolean flag = true;
+        int count = activityRemarkDao.deleteRemark(id);
+        if (count !=1){
+            flag=false;
+        }
+        return flag;
+    }
 }
