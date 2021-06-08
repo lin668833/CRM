@@ -7,151 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eb7ae8c-56fa-4708-bcad-3f782ba818f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/META-INF/CRM.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/exception/LoginException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/settings/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/settings/dao/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/settings/domain/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/settings/services/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/settings/services/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/settings/web/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/utils/DateTimeUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/utils/MD5Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/utils/PrintJson.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/utils/ServiceFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/utils/SqlSessionUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/utils/TransactionInvocationHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/utils/UUIDUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/vo/PaginationVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/web/filter/EncodingFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/web/filter/LoginFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/workbench/dao/ActivityDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/workbench/dao/ActivityDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/workbench/domain/Activity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/workbench/domain/ActivityRemark.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/workbench/service/ActivityService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/workbench/service/Impl/ActivityServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/com/bjpowernode/crm/workbench/web/controller/ActivityController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/META-INF/CRM.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/exception/LoginException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/settings/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/settings/dao/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/settings/domain/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/settings/services/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/settings/services/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/settings/web/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/utils/DateTimeUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/utils/MD5Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/utils/PrintJson.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/utils/ServiceFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/utils/SqlSessionUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/utils/TransactionInvocationHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/utils/UUIDUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/vo/PaginationVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/web/filter/EncodingFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/web/filter/LoginFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/workbench/dao/ActivityDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/workbench/dao/ActivityDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/workbench/domain/Activity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/workbench/domain/ActivityRemark.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/workbench/service/ActivityService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/workbench/service/Impl/ActivityServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/com/bjpowernode/crm/workbench/web/controller/ActivityController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/lib/jackson-annotations-2.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/lib/jackson-core-2.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/lib/jackson-databind-2.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/lib/mybatis-3.4.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/lib/mysql-connector-java-5.1.23.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/image/IMG_7114.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/image/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/image/user-thumbnail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/bootstrap-datetimepicker-master/locale/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/bootstrap_3.3.0/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/bootstrap_3.3.0/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/bootstrap_3.3.0/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/bootstrap_3.3.0/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/bootstrap_3.3.0/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/bs_pagination/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/bs_pagination/jquery.bs_pagination.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/bs_pagination/jquery.bs_pagination.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/bs_typeahead/bootstrap3-typeahead.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/jquery-1.11.1-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/css/zTreeStyle/img/diy/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/css/zTreeStyle/img/diy/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/css/zTreeStyle/img/diy/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/css/zTreeStyle/img/diy/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/css/zTreeStyle/img/diy/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/css/zTreeStyle/img/diy/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/css/zTreeStyle/img/diy/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/css/zTreeStyle/img/diy/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/css/zTreeStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/jquery/zTree_v3-master/js/jquery.ztree.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/settings/dept/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/settings/dictionary/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/settings/dictionary/type/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/settings/dictionary/type/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/settings/dictionary/type/save.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/settings/dictionary/value/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/settings/dictionary/value/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/settings/dictionary/value/save.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/settings/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/settings/qx/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/settings/qx/user/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/settings/qx/user/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/activity/detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/activity/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/chart/activity/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/chart/clue/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/chart/customerAndContacts/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/chart/transaction/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/clue/convert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/clue/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/clue/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/contacts/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/contacts/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/customer/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/customer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/transaction/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/transaction/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/transaction/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/transaction/save.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/visit/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/visit/editTask.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/visit/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRM/target/crm-1.0/workbench/visit/saveTask.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/service/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/service/ActivityService.java" afterDir="false" />
@@ -169,30 +25,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CRM/src/main/webapp/workbench/activity/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3231">
-              <caret line="259" column="42" selection-start-line="259" selection-start-column="42" selection-end-line="259" selection-end-column="42" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#td#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CRM/src/main/webapp/workbench/activity/detail.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="107" column="39" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
+            <state relative-caret-position="462">
+              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
               <folding>
+                <element signature="e#717#916#0#HTML" />
+                <element signature="e#956#1105#0#HTML" />
+                <element signature="e#1149#1205#0#HTML" />
+                <element signature="e#1248#1304#0#HTML" />
+                <element signature="e#1345#1398#0#HTML" />
+                <element signature="e#1438#1495#0#HTML" />
+                <element signature="e#1562#1633#0#HTML" />
+                <element signature="e#1697#1768#0#HTML" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="e#3196#3672#0#HTML" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -210,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CRM/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="59" column="49" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="49" />
+            <state relative-caret-position="392">
+              <caret line="61" column="49" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -219,9 +79,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/web/controller/ActivityController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+            <state relative-caret-position="330">
+              <caret line="69" column="35" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
               <folding>
+                <element signature="e#3160#3176#0" expanded="true" />
+                <element signature="e#4233#4249#0" expanded="true" />
                 <element signature="method#pageList#0;class#ActivityController#0" />
                 <element signature="method#getUserList#0;class#ActivityController#0" />
               </folding>
@@ -232,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/service/ActivityService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="24" column="11" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="11" />
+            <state relative-caret-position="506">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -241,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/service/Impl/ActivityServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="95" column="43" lean-forward="true" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
+            <state relative-caret-position="370">
+              <caret line="113" column="45" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -253,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-129">
-              <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
+            <state relative-caret-position="242">
+              <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -265,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="198">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -326,14 +188,14 @@
         <option value="$PROJECT_DIR$/CRM/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/CRM/src/main/webapp/workbench/activity/index.jsp" />
         <option value="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityDao.xml" />
+        <option value="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityDao.java" />
         <option value="$PROJECT_DIR$/CRM/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/CRM/src/main/webapp/workbench/activity/detail.jsp" />
         <option value="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/web/controller/ActivityController.java" />
         <option value="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/service/ActivityService.java" />
-        <option value="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityDao.java" />
         <option value="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/service/Impl/ActivityServiceImpl.java" />
         <option value="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.java" />
         <option value="$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.xml" />
-        <option value="$PROJECT_DIR$/CRM/src/main/webapp/workbench/activity/detail.jsp" />
       </list>
     </option>
   </component>
@@ -384,8 +246,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -513,10 +375,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623071003345" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623134133682" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -644,7 +507,8 @@
       <workItem from="1622966352819" duration="329000" />
       <workItem from="1622966713980" duration="511000" />
       <workItem from="1622978308068" duration="7637000" />
-      <workItem from="1623068012295" duration="3138000" />
+      <workItem from="1623068012295" duration="3200000" />
+      <workItem from="1623128540704" duration="5463000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1622878754276</created>
@@ -674,14 +538,22 @@
       <option name="project" value="LOCAL" />
       <updated>1623068056007</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="删除备注">
+      <created>1623071208396</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623071208396</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80178000" />
+    <option name="totallyTimeSpent" value="85703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2841823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -694,7 +566,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" visible="true" weight="0.24504249" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" visible="true" weight="0.23937677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -729,7 +601,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" visible="true" weight="0.21671388" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.24504249" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -760,7 +632,8 @@
     <MESSAGE value="111" />
     <MESSAGE value="添加修改和删除" />
     <MESSAGE value="添加备注" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加备注" />
+    <MESSAGE value="删除备注" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除备注" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CRM/CRM.iml">
@@ -1106,17 +979,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityDao.xml">
+    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#select#0;n#mapper#0;n#!!top" />
-            <element signature="n#delete#0;n#mapper#0;n#!!top" />
-            <element signature="n#select#1;n#mapper#0;n#!!top" />
-            <element signature="n#insert#0;n#mapper#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRM/src/main/webapp/workbench/activity/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5698">
+          <caret line="259" column="42" selection-start-line="259" selection-start-column="42" selection-end-line="259" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1127,86 +1000,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/src/main/webapp/workbench/activity/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3231">
-          <caret line="259" column="42" selection-start-line="259" selection-start-column="42" selection-end-line="259" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#td#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CRM/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="59" column="49" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="49" />
+        <state relative-caret-position="392">
+          <caret line="61" column="49" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/web/controller/ActivityController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+        <state relative-caret-position="330">
+          <caret line="69" column="35" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
           <folding>
+            <element signature="e#3160#3176#0" expanded="true" />
+            <element signature="e#4233#4249#0" expanded="true" />
             <element signature="method#pageList#0;class#ActivityController#0" />
             <element signature="method#getUserList#0;class#ActivityController#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.xml">
+    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/service/ActivityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="506">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/service/Impl/ActivityServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="95" column="43" lean-forward="true" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
+        <state relative-caret-position="370">
+          <caret line="113" column="45" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/service/ActivityService.java">
+    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="11" />
+        <state relative-caret-position="242">
+          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CRM/src/main/java/com/bjpowernode/crm/workbench/dao/ActivityRemarkDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CRM/src/main/webapp/workbench/activity/detail.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="107" column="39" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
+        <state relative-caret-position="462">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
           <folding>
+            <element signature="e#717#916#0#HTML" />
+            <element signature="e#956#1105#0#HTML" />
+            <element signature="e#1149#1205#0#HTML" />
+            <element signature="e#1248#1304#0#HTML" />
+            <element signature="e#1345#1398#0#HTML" />
+            <element signature="e#1438#1495#0#HTML" />
+            <element signature="e#1562#1633#0#HTML" />
+            <element signature="e#1697#1768#0#HTML" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="e#3196#3672#0#HTML" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

@@ -56,12 +56,71 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
 
         $("#remarkBody").on("mouseover",".remarkDiv",function(){
             $(this).children("div").children("div").show();
-        })
+        });
+
         $("#remarkBody").on("mouseout",".remarkDiv",function(){
             $(this).children("div").children("div").hide();
+        });
+
+        $("#saveRemarkBtn").click(function () {
+            $.ajax({
+                url:"workbench/activity/saveRemark.do",
+                data:{
+                    "noteContent":$.trim($("#remark").val()),
+                    "activityId":"${a.id}"
+                },
+                type:"post",
+                dataType:"json",
+                success:function (data) {
+                    var html = "";
+
+                    html += '<div id="'+data.ar.id+'" class="remarkDiv" style="height: 60px;">';
+                    html += '<img title="zhangsan" src="image/user-thumbnail.png" style="width: 30px; height:30px;">';
+                    html += '<div style="position: relative; top: -40px; left: 40px;" >';
+                    html += '<h5>'+data.ar.noteContent+'</h5>';
+                    html += '<font color="gray">市场活动</font> <font color="gray">-</font> <b>${a.name}</b> <small style="color: gray;"> '+data.ar.createTime+' 由'+(data.ar.createBy)+'</small>';
+                    html += '<div style="position: relative; left: 500px; top: -30px; height: 30px; width: 100px; display: none;">';
+                    html += '<a class="myHref" href="javascript:void(0); onclick="editRemark(\''+data.ar.id+'\')"><span class="glyphicon glyphicon-edit" style="font-size: 20px; color: #FF0000;"></span></a>';
+                    html += '&nbsp;&nbsp;&nbsp;&nbsp;';
+                    html += '<a class="myHref" href="javascript:void(0);" onclick="deleteRemark(\''+data.ar.id+'\')"><span class="glyphicon glyphicon-remove" style="font-size: 20px; color: #FF0000;"></span></a>';
+                    html += '</div>';
+                    html += '</div>';
+                    html += '</div>';
+
+                    $("#remarkDiv").before(html);
+                }
+            })
+        });
+
+        $("#updateRemarkBtn").click(function () {
+            var id = $("#remarkId").val();
+
+            $.ajax({
+                url:"workbench/activity/updateRemark.do",
+                data:{
+                    "noteContent" : $.trim($("#noteContent").val()),
+                    "id" :  id
+                },
+                type:"post",
+                dataType:"json",
+                success:function (data) {
+                    /*
+                       *success:true/false  ar:{备注}
+                       *
+                       */
+                    if (data.success){
+                       //需要更新noteContent,editTime,editBy
+                        $("#e"+id).html(data.ar.noteContent);
+                        $("#s"+id).html(data.ar.editTime+" 由"+data.ar.editBy);
+
+                        $("#editRemarkModal").modal("hide");
+
+                    } else{
+                        alert("修改备注失败")
+                    }
+                }
+            })
         })
-
-
 	});
 
 	function showRemarkList() {
@@ -78,10 +137,10 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
 					html += '<div id="'+n.id+'" class="remarkDiv" style="height: 60px;">';
 					html += '<img title="zhangsan" src="image/user-thumbnail.png" style="width: 30px; height:30px;">';
 					html += '<div style="position: relative; top: -40px; left: 40px;" >';
-					html += '<h5>'+n.noteContent+'</h5>';
-					html += '<font color="gray">市场活动</font> <font color="gray">-</font> <b>${a.name}</b> <small style="color: gray;"> '+(n.editFlag==0?n.createTime:n.editTime)+' 由'+(n.editFlag==0?n.createBy:n.editBy)+'</small>';
+					html += '<h5 id="e'+n.id+'">'+n.noteContent+'</h5>';
+					html += '<font color="gray">市场活动</font> <font color="gray">-</font> <b>${a.name}</b> <small style="color: gray;" id="s'+n.id+'"> '+(n.editFlag==0?n.createTime:n.editTime)+' 由'+(n.editFlag==0?n.createBy:n.editBy)+'</small>';
 					html += '<div style="position: relative; left: 500px; top: -30px; height: 30px; width: 100px; display: none;">';
-					html += '<a class="myHref" href="javascript:void(0);"><span class="glyphicon glyphicon-edit" style="font-size: 20px; color: #FF0000;"></span></a>';
+					html += '<a class="myHref" href="javascript:void(0);" onclick="editRemark(\''+n.id+'\')"><span class="glyphicon glyphicon-edit" style="font-size: 20px; color: #FF0000;"></span></a>';
 					html += '&nbsp;&nbsp;&nbsp;&nbsp;';
 					html += '<a class="myHref" href="javascript:void(0);" onclick="deleteRemark(\''+n.id+'\')"><span class="glyphicon glyphicon-remove" style="font-size: 20px; color: #FF0000;"></span></a>';
 					html += '</div>';
@@ -92,6 +151,16 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
 			}
 		})
 	}
+
+	function editRemark(id) {
+        $("#remarkId").val(id);
+        //alert(id);
+        var noteContent = $("#e"+id).html();
+
+        $("#editRemarkModal").modal("show");
+
+        $("#noteContent").val(noteContent);
+    }
 
 	function deleteRemark(id) {
         $.ajax({
@@ -313,7 +382,7 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
 				<textarea id="remark" class="form-control" style="width: 850px; resize : none;" rows="2"  placeholder="添加备注..."></textarea>
 				<p id="cancelAndSaveBtn" style="position: relative;left: 737px; top: 10px; display: none;">
 					<button id="cancelBtn" type="button" class="btn btn-default">取消</button>
-					<button type="button" class="btn btn-primary">保存</button>
+					<button type="button" id="saveRemarkBtn" class="btn btn-primary">保存</button>
 				</p>
 			</form>
 		</div>
